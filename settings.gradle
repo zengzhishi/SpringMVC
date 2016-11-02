@@ -1,0 +1,4 @@
+rootProject.name = 'SpringMVC'
+include 'springmvc-1'
+findProject(':springmvc-1')?.name = 'SpringMVC'
+
